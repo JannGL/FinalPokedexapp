@@ -3,22 +3,22 @@
 @import '~@ionic/angular/css/normalize.css';
 @import '~@ionic/angular/css/structure.css';
 @import '~@ionic/angular/css/typography.css';
-$font-path: "../assets/fonts";
+
 
 @import '~@ionic/angular/css/padding.css';
 @import '~@ionic/angular/css/float-elements.css';
 @import '~@ionic/angular/css/text-alignment.css';
 @import '~@ionic/angular/css/text-transformation.css';
 @import '~@ionic/angular/css/flex-utils.css';
-@import "ionic.globals";
+
 
 $colors: (
-  primary:    #F5A9F2,
-  secondary:  #CEF6CE,
-  danger:     #A9E2F3,
-  light:      #FBEFF8,
-  dark:       #F5F6CE,
-  Tipo3:       #424242
+  primary:    #80bfff,
+  secondary:    #009973,
+  danger:     #ffa64d,
+  light:      #ffcc99,
+  dark:       #4d4d4d,
+  Tipo3:       #ffccff
 );
 @import "ionic.theme.default";
-@import "ionic.ionicons";
+
