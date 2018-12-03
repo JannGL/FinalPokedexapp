@@ -26,5 +26,10 @@
   
 
   .md {
-    --ion-text-color: #222;
+    --ion-text-color: #ffffff;
+
+    $colors: (
+        primary:    #F5A9F2
+
+    );
   }

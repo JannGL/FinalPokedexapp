@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FriendsService } from '../friends.service';
+import { NavController } from '@ionic/angular';
+import { InfofPage } from '../infof/infof.page';
+
 
 
 
@@ -12,14 +15,20 @@ import { FriendsService } from '../friends.service';
 export class FriendsPage implements OnInit {
 
   constructor(
-    
+    public navCtrl: NavController,
     private friendsService: FriendsService) { }
+
+    openFirstPage(){
+      
+  
+
+    }
 
   ngOnInit() {
    
-    this.friendsService.getData('top-headlines?sources=buzzfeed').subscribe(data => {console.log(data);
+    this.navCtrl.push(InfofPage);
      
-    })
+    }
   }
 
-}
+
