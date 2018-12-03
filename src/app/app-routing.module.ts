@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   { path: '', loadChildren: './tabs/tabs.module#TabsPageModule' },
-  { path: 'friends/:id', loadChildren: './pages/friends/friends.module#FriendsPageModule' },
+  { path: 'friends/:id', loadChildren: './friends/friends.module#FriendsPageModule' },
   { path: 'infof', loadChildren: './infof/infof.module#InfofPageModule' }
 
 ];
