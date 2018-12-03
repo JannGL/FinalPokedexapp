@@ -9,10 +9,7 @@ import { NavController, NavParams } from '@ionic/angular';
 export class InfofPage implements OnInit {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) { }
-  ionViewDidLoad(){
-
-    console.log('ionViewDidLoad InfofPage');
-  }
+  
 
   ngOnInit() {
   }

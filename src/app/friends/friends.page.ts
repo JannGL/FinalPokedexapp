@@ -19,14 +19,15 @@ export class FriendsPage implements OnInit {
     private friendsService: FriendsService) { }
 
     openFirstPage(){
-      
+
+this.navCtrl.goForward('infofpage');
   
 
     }
 
   ngOnInit() {
    
-    this.navCtrl.push(InfofPage);
+  
      
     }
   }
