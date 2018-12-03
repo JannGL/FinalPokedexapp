@@ -20,7 +20,7 @@ export class FriendsPage implements OnInit {
 
     openFirstPage(){
 
-this.navCtrl.goForward('infofpage');
+this.navCtrl.push('infofpage');
   
 
     }
